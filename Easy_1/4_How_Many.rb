@@ -1,4 +1,4 @@
-# 4_How_Many?.rb
+# 4_How_Many?
 
 #Define a method that counts repeat elements in an array
 
@@ -20,4 +20,3 @@ vehicles = [
 ]
 
 how_many(vehicles)
-
