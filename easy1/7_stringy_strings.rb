@@ -1,9 +1,9 @@
-# 7_Stringy_Strings.rb
+# 7_stringy_strings.rb
 
-#Write a method that takes a positive int and returns a sting of 0's and 1's
+# Write a method that takes a positive int and returns a sting of 0's and 1's
 # always starting with 1. The length of the string should match the int.
 
-def stringy(size, start_num=1)
+def stringy(size, start_num = 1)
   digit = start_num == 1 ? '10' : '01'
   stringy = digit * size
   stringy[0, size]
