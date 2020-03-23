@@ -20,8 +20,6 @@ def minilang(program)
   nil
 end
 
-(3 + (4 * 5) - 7) / (5 % 3)
-
 p minilang('3 PUSH 5 MOD PUSH 7 PUSH 3 PUSH 4 PUSH 5 MULT ADD SUB DIV PRINT')
 
 =begin
